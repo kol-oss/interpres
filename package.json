@@ -10,7 +10,7 @@
     "lint:fix": "eslint --fix ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Khozhainov Mykola",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.57.0",
