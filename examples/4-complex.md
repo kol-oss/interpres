@@ -25,9 +25,9 @@ Abstract 3. Just to end this file
 // <p>Abstract 1. Let's start abstract 1.
 // This is still abstract 1.</p>
 // <p>Abstract 2. And after a blank line this is Abstract 2.</p>
-// <pre>
+// <p><pre>
 // this text **won't** be _formatted_
 //
 // because I want it
-// </pre>
+// </pre></p>
 // <p>Abstract 3. Just to end this file</p>
