@@ -18,10 +18,7 @@ const command = require('./lib/interfaces/command.js');
     if (out) await manager.write(out, result);
     else console.log(result);
   } catch (error) {
-    const message = 'Error: ' + error.message;
-
-    if (out) await manager.write(out, message);
-    else console.log('Error:', message);
+    console.error('Error:', error.message);
     process.exit(1);
   }
 })();
