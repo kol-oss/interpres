@@ -67,7 +67,7 @@ node main.js ./examples/7-converted.md -o ./examples/7-converted.html
 * output in the `ansi` format:
 
 ```shell
-node main.js ./examples/1-simple.md -o ./examples/1-converted.html
+node main.js ./examples/1-simple.md -f ansi
 ```
 
 ## Testing
