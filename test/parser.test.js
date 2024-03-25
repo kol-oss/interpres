@@ -36,7 +36,7 @@ const POSITIVE_TEST_CASES = [
   {
     name: 'bold ansi',
     received: '**Bold**',
-    expected: '\x1b[1mBoldd\x1b[0m',
+    expected: '\x1b[1mBold\x1b[0m',
     format: 'ansi',
   },
   {
